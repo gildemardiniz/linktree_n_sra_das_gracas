@@ -11,7 +11,12 @@ function App() {
         <div className="d-flex justify-content-center ">
           <img
             src={perfil}
-            class="rounded-circle m-3 d-block w-50 w-md-25 border-primary"
+            className="rounded-circle m-3 w-25 d-none d-md-block"
+            alt="..."
+          />
+          <img
+            src={perfil}
+            className="rounded-circle m-3 w-50 d-block d-md-none"
             alt="..."
           />
         </div>
