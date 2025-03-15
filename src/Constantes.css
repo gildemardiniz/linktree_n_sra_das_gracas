@@ -1,0 +1,17 @@
+.color-dourado{
+    color: #daa520;
+}
+.color-azul{
+    color: #1e475c;
+}
+.color-borda{
+    border-color: #daa520;
+}
+.text-color-azul{
+    color: #1e475c;
+}
+.btn-light:hover, .btn-light:focus {
+    border-color: #1e475c;
+    background-color: white;
+    cursor:pointer
+}
