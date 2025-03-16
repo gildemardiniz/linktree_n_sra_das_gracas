@@ -34,14 +34,14 @@ Ela exibe informações sobre a comunidade e proporciona formas rápidas de inte
    git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Navegue até a pasta do projeto:
-
+    ```bash
     cd seu-repositorio
 
 3. Instale as dependências:
-
+    ```bash
     npm install
 
 4. Inicie o servidor de desenvolvimento:
-
+    ```bash
     npm start
 
