@@ -10,6 +10,9 @@
 .text-color-azul{
     color: #1e475c;
 }
+.text-color-roxo{
+    color: #7843e9;
+}
 .btn-light:hover, .btn-light:focus {
     border-color: #1e475c;
     background-color: white;
