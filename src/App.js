@@ -1,8 +1,8 @@
-import './Constantes.css'
-import perfil from './assets/perfil.jpg';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import { Outlet } from "react-router-dom";
+import './Constantes.css';
+import perfil from './assets/perfil.jpg';
 
 function App() {
   return (
@@ -22,23 +22,7 @@ function App() {
         </div>
         <h4 className="d-flex justify-content-center mt-3 text-center">Comunidade</h4>
         <h4 className="d-flex justify-content-center mb-3 text-center">Nossa Senhora das Graças</h4>
-        <div className="d-flex justify-content-center">
-          <button type="button" className="btn btn-light m-2 col-12 col-md-6 p-3 rounded-pill border-2 color-borda">
-            <a className='text-reset text-color-azul text-decoration-none' href='https://www.instagram.com/nsadasgracas_jardimturu'>Instagram</a>
-          </button>
-        </div>
-
-        <div className="d-flex justify-content-center">
-          <button type="button" className="btn btn-light m-2 col-12 col-md-6 p-3 rounded-pill border-2 color-borda">
-            <a className='text-reset text-color-azul text-decoration-none' href='https://wa.me/559885799266'>Whatsapp</a>
-          </button>
-        </div>
-
-        <div className="d-flex justify-content-center">
-          <button type="button" className="btn btn-light m-2 col-12 col-md-6 p-3 rounded-pill border-2 color-borda">
-            <a className='text-reset text-color-azul text-decoration-none' href='https://maps.app.goo.gl/YYVyAAGKoRDzQfc98'>Localização</a>
-          </button>
-        </div>
+        <Outlet/>
         <footer className='mt-5 mb-4'>
           <h6 className="d-flex justify-content-center m-3 text-center ">Paróquia de Santo Antônio - Parque Vitória</h6>
           <div className="d-flex justify-content-center">
