@@ -26,7 +26,7 @@ export const Links = () => {
                     </button>
                 </div>
             </Link>
-            <Link to='https://chat.whatsapp.com/A8QfF5HGWSK7KhbjUkXEo6%2016:48' className="text-decoration-none">
+            <Link to='https://chat.whatsapp.com/GRTXz4kXtSN1NVjPiEgGOm' className="text-decoration-none">
                 <div className="d-flex justify-content-center">
                     <button className="btn btn-light m-2 col-12 col-md-6 p-3 rounded-pill border-2 color-borda ">
                         Entre no Grupo
